@@ -1,0 +1,10 @@
+{
+  "name": "filtra-stile-linguistico",
+  "description": "Ripulisce tono, lessico e punteggiatura di testi in prosa e propone un secondo passaggio editoriale mirato. Usa quando l'utente chiede di filtrare lo stile, ridurre i tic di scrittura da IA o applicare queste preferenze alla stesura di un testo.",
+  "author": {
+    "name": "Tiziano Boccaccini"
+  },
+  "homepage": "https://www.cryptohelvetia.com/ch-labs/prompt-library/chat-preferences/filtra-stile-linguistico",
+  "repository": "https://github.com/MicheDada21/filtra-stile-linguistico",
+  "license": "MIT"
+}
