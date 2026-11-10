@@ -3,7 +3,7 @@ name: umanizza-stile-linguistico
 description: "Cleans tone, vocabulary and punctuation in Italian prose, then offers a second editorial pass. Use when a draft shows AI writing tics or when these style preferences should shape a new text."
 ---
 
-# Filtra lo stile linguistico
+# Umanizza stile linguistico
 
 Applica il filtro al testo richiesto. Conserva la lingua del testo, il senso, i fatti, i nomi, le date, le cifre, i termini tecnici, le citazioni letterali e il grado di certezza delle affermazioni. Segui le preferenze già stabilite per la lingua della conversazione. Le regole lessicali italiane si applicano al testo italiano; nelle altre lingue usa le indicazioni di stile pertinenti senza imporre costruzioni italiane.
 
@@ -29,4 +29,4 @@ Sui testi scritti da te puoi applicare anche le cancellazioni previste dalle reg
 
 Ricontrolla il testo con il Blocco 1. Consegna il testo rivisto e aggiungi sempre un breve resoconto delle correzioni apportate, raggruppato per regola applicata, con i passaggi toccati e le eventuali proposte di cancellazione.
 
-Fonte del filtro e delle regole conservate nei riferimenti: [CryptoHelvetia, Filtra lo stile linguistico](https://www.cryptohelvetia.com/ch-labs/prompt-library/chat-preferences/umanizza-stile-linguistico).
+Fonte del filtro e delle regole conservate nei riferimenti: [CryptoHelvetia, Umanizza stile linguistico](https://www.cryptohelvetia.com/ch-labs/prompt-library/chat-preferences/umanizza-stile-linguistico).
