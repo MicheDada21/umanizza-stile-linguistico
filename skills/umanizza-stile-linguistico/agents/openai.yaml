@@ -1,4 +1,4 @@
 interface:
   display_name: "Filtra lo stile linguistico"
   short_description: "Ripulisce lo stile con due passaggi editoriali"
-  default_prompt: "Usa $filtra-stile-linguistico per ripulire questo testo con il Blocco 1 e propormi il Blocco 2."
+  default_prompt: "Usa $umanizza-stile-linguistico per ripulire questo testo con il Blocco 1 e propormi il Blocco 2."

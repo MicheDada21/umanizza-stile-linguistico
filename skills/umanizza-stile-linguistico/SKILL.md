@@ -1,5 +1,5 @@
 ---
-name: filtra-stile-linguistico
+name: umanizza-stile-linguistico
 description: "Ripulisce tono, lessico e punteggiatura di testi in prosa e propone un secondo passaggio editoriale mirato. Usa quando l'utente chiede di filtrare lo stile, ridurre i tic di scrittura da IA o applicare queste preferenze alla stesura di un testo."
 ---
 
@@ -29,4 +29,4 @@ Sui testi scritti da te puoi applicare anche le cancellazioni previste dalle reg
 
 Ricontrolla il testo con il Blocco 1. Consegna il testo rivisto e aggiungi sempre un breve resoconto delle correzioni apportate, raggruppato per regola applicata, con i passaggi toccati e le eventuali proposte di cancellazione.
 
-Fonte del filtro e delle regole conservate nei riferimenti: [CryptoHelvetia, Filtra lo stile linguistico](https://www.cryptohelvetia.com/ch-labs/prompt-library/chat-preferences/filtra-stile-linguistico).
+Fonte del filtro e delle regole conservate nei riferimenti: [CryptoHelvetia, Filtra lo stile linguistico](https://www.cryptohelvetia.com/ch-labs/prompt-library/chat-preferences/umanizza-stile-linguistico).
