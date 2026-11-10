@@ -1,6 +1,6 @@
 {
   "name": "umanizza-stile-linguistico",
-  "description": "Ripulisce tono, lessico e punteggiatura di testi in prosa e propone un secondo passaggio editoriale mirato. Usa quando l'utente chiede di filtrare lo stile, ridurre i tic di scrittura da IA o applicare queste preferenze alla stesura di un testo.",
+  "description": "Cleans tone, vocabulary and punctuation in Italian prose, then offers a second editorial pass. Use when a draft shows AI writing tics or when these style preferences should shape a new text.",
   "author": {
     "name": "Tiziano Boccaccini"
   },
