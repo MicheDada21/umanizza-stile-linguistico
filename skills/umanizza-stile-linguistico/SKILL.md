@@ -5,28 +5,28 @@ description: "Cleans tone, vocabulary and punctuation in Italian prose, then off
 
 # Umanizza stile linguistico
 
-Applica il filtro al testo richiesto. Conserva la lingua del testo, il senso, i fatti, i nomi, le date, le cifre, i termini tecnici, le citazioni letterali e il grado di certezza delle affermazioni. Segui le preferenze già stabilite per la lingua della conversazione. Le regole lessicali italiane si applicano al testo italiano; nelle altre lingue usa le indicazioni di stile pertinenti senza imporre costruzioni italiane.
+Il filtro si applica alla prosa italiana. Testi in altre lingue, codice, path, URL, JSON e altri formati tecnici passano invariati.
 
-Il filtro riguarda la prosa. Conserva la sintassi necessaria in codice, path, URL, JSON e altri formati tecnici. Rispetta il formato richiesto per il documento. L'uso della skill riguarda il testo corrente e gli eventuali testi successivi che l'utente include nella richiesta; modificare preferenze o configurazioni globali richiede una richiesta specifica.
+## Principi validi per entrambi i blocchi
 
-Per il resoconto delle correzioni segui le preferenze di formato espresse dall'utente nella richiesta o nelle istruzioni esterne alla skill. Gli elenchi puntati sono facoltativi. In assenza di preferenze scegli il formato più semplice e leggibile. Se non hai apportato correzioni, dichiaralo.
+La fedeltà al testo ha la precedenza sulle regole. Fatti, nomi, date, cifre, termini tecnici, citazioni letterali, vocabolario dell'autore e frasi che funzionano si conservano. Le distinzioni tra dato documentato, ricostruzione e ipotesi, insieme all'attribuzione di un'ipotesi al suo autore, sono informazione e rimangono intatte. Cita soltanto fonti già presenti nel testo o verificate. Quando una regola richiede di alterare il senso o di aggiungere informazioni non verificate, lascia il passaggio com'è e segnala il dubbio in chat.
+
+Sui testi scritti da te applica ogni correzione, cancellazioni comprese. Sui testi dell'utente applica le riformulazioni e presenta in chat come proposta ogni cancellazione di una frase o di una sua parte sostanziale, finché l'utente la autorizza.
+
+Ogni consegna comprende il testo completo e, dopo di esso, un breve resoconto delle correzioni. Il formato del resoconto segue le preferenze dell'utente; in loro assenza scegli la forma più semplice e leggibile. Se non hai corretto niente, dichiaralo.
 
 ## Blocco 1
 
-Leggi [references/blocco-1.md](references/blocco-1.md) e applica prima il filtro di base a ogni testo prodotto nell'ambito della richiesta. Controlla il risultato prima di consegnarlo.
-
-Mostra in chat il testo filtrato completo e aggiungi sempre un breve resoconto delle correzioni apportate. Poi chiedi se l'utente vuole avviare il Blocco 2. Se il testo è breve, spiega brevemente che il secondo passaggio serve soprattutto per testi narrativi o argomentativi lunghi.
+Leggi [references/blocco-1.md](references/blocco-1.md) e applicalo a ogni testo della richiesta. Il blocco è concluso quando il testo supera il controllo finale del file. Consegna il testo con il resoconto, poi chiedi se l'utente vuole il Blocco 2. Per un testo breve aggiungi che il Blocco 2 serve soprattutto a testi narrativi o argomentativi lunghi.
 
 ## Blocco 2
 
-Procedi solo dopo conferma esplicita riferita al testo corrente. Se la richiesta iniziale autorizza già entrambi i blocchi, quella richiesta vale come conferma. Esegui comunque prima il Blocco 1 e rendi disponibile il suo risultato.
+Parte solo dopo una conferma esplicita riferita al testo corrente; vale come conferma anche una richiesta iniziale che autorizza entrambi i blocchi. Il Blocco 1 viene comunque prima e il suo risultato va consegnato.
 
-Leggi [references/blocco-2.md](references/blocco-2.md) soltanto quando il secondo passaggio è autorizzato. Controlla le 16 regole nell'ordine indicato e correggi solo le occorrenze nette o ricorrenti. Un grappolo comprende almeno due occorrenze dello stesso fenomeno nello stesso paragrafo o in paragrafi contigui. La regola 11 richiede almeno tre frammenti consecutivi. Conserva i casi isolati giustificati e ogni passaggio che nessuna regola tocca.
+A quel punto leggi [references/blocco-2.md](references/blocco-2.md) e controlla ogni regola nell'ordine indicato. Il blocco è concluso quando tutte le regole sono state controllate e il testo rivisto supera di nuovo il controllo finale del Blocco 1. Il resoconto raggruppa le correzioni per regola, con i passaggi toccati e le eventuali proposte di cancellazione.
 
-La fedeltà al testo ha la precedenza. Se un intervento richiede informazioni non verificate o altera il senso, conserva il passaggio e segnala il dubbio. Mantieni le distinzioni tra dati documentati, ricostruzioni e ipotesi, comprese le attribuzioni.
+## Uso dentro un altro workflow
 
-Sui testi scritti da te puoi applicare anche le cancellazioni previste dalle regole. Sui testi forniti dall'utente applica le riformulazioni, ma lascia ogni cancellazione di una frase o di una sua parte sostanziale come proposta da segnalare in chat, finché l'utente la autorizza.
+Quando un'altra skill chiama questo filtro, decide lei quando mostrare il risultato in chat e quando proporre il Blocco 2. Applica il blocco richiesto al testo indicato e restituisci il testo corretto con il resoconto, da includere nella consegna. Il chiamante può passare un profilo con termini ammessi, sostituzioni di dominio, nomi e citazioni da conservare e regole di formato. Il profilo prevale sul Blocco 1 per i casi che nomina; per tutto il resto valgono questo file e i suoi riferimenti.
 
-Ricontrolla il testo con il Blocco 1. Consegna il testo rivisto e aggiungi sempre un breve resoconto delle correzioni apportate, raggruppato per regola applicata, con i passaggi toccati e le eventuali proposte di cancellazione.
-
-Fonte del filtro e delle regole conservate nei riferimenti: [CryptoHelvetia, Umanizza stile linguistico](https://www.cryptohelvetia.com/ch-labs/prompt-library/chat-preferences/umanizza-stile-linguistico).
+La pagina pubblica del filtro è [CryptoHelvetia, Umanizza stile linguistico](https://www.cryptohelvetia.com/ch-labs/prompt-library/chat-preferences/umanizza-stile-linguistico).
