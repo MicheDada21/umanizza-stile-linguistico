@@ -6,7 +6,7 @@ Lessico vincolante. «Tradizione», «tradizionale», «tradizionalmente» e der
 
 Attività delle persone. «Lavoro», «lavorare» e derivati (lavori, lavorato, lavorativo, lavoratore) valgono per l'attività degli agenti AI e per il «lavoro su di sé» nel senso di crescita personale. Per le persone scrivi che cosa fanno nello specifico, per esempio scrive, disegna, vende, insegna, programma, cura un archivio.
 
-Idee di business. «Progetto» e «progetti» valgono come nome tecnico, per esempio la cartella locale del progetto o il repo del progetto. Per un'idea di business usa il suo nome proprio oppure la parola che dice di che cosa si tratta, come idea, iniziativa, attività, impresa, prodotto, servizio, sito o app.
+Idee di business. «Progetto» e «progetti» valgono come nome tecnico, per esempio la cartella locale del progetto o il repo del progetto. Per un'idea di business usa il suo nome proprio. Quando il nome manca o è già stato usato, ragiona sul caso concreto e cerca la parola più semplice che dice di che cosa si tratta, tra quelle che un italiano usava già un secolo fa. Nessun sostituto è pronto in anticipo; confronta più candidati e tieni quello che un lettore qualunque capisce subito in quella frase.
 
 Riempitivi. «Sottolineare» ed «evidenziare» usati come riempitivi, «fondamentale» e «chiave» usati a vuoto lasciano il posto al verbo o all'aggettivo che dice il contenuto. «Cruciale» e «davvero» come rafforzativo si sostituiscono con l'informazione che giustifica il peso.
 
